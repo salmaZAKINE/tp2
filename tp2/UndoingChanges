@@ -1,0 +1,10 @@
+git commit --amend -m "nouveau messag": Modifie le dernier commit en ajoutant de nouveaux changements ou en modifiant le message du commit.
+git reflog :Affiche un journal de références, montrant l'historique des commandes HEAD.
+git rebase --i N°commit :Permet une réécriture interactive de l'historique des commits.
+git reset: Déplace le HEAD vers un commit spécifique, annulant les commits après ce point.
+git revert : Crée un nouveau commit annulant les changements d'un commit spécifique.
+git revert --abort :Annule le processus de revert en cas de conflits.
+git revert --continue : Continue le processus de revert après la résolution des conflits
+git diff : Affiche les différences entre les modifications de l'aire de travail et le dernier commit.
+git restore :Restaure les fichiers de l'aire de travail à l'état du dernier commit.
+git cherry-pick:Applique les changements d'un commit spécifique à la branche actuelle.
